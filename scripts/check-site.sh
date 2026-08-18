@@ -12,6 +12,7 @@ required_files=(
   "$site_dir/index.html"
   "$site_dir/research.html"
   "$site_dir/cv.html"
+  "$site_dir/photo-diary.html"
   "$site_dir/404.html"
   "$site_dir/assets/miguel-camacho-horvitz-cv.pdf"
   "$site_dir/assets/robust-inference-weak-instruments.pdf"

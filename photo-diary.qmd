@@ -1,0 +1,37 @@
+---
+pagetitle: "Photo diary"
+description: "A personal photo diary by Miguel Camacho Horvitz."
+page-layout: custom
+---
+
+<main id="main-content">
+
+<header class="page-hero">
+<div class="site-shell narrow-section">
+<p class="eyebrow">Photo diary</p>
+<h1 class="page-title">Photo diary</h1>
+<p class="page-lede">A small, occasional record of places, people, and moments away from the desk.</p>
+</div>
+</header>
+
+<section class="section-block" aria-labelledby="diary-title">
+<div class="site-shell">
+<h2 id="diary-title" class="visually-hidden">Photo diary entries</h2>
+<div class="photo-diary-empty">
+<p>Photographs will appear here soon.</p>
+</div>
+
+<!--
+Copy this block inside a <div class="photo-diary-grid"> once photographs are ready.
+
+<div class="photo-diary-grid">
+<figure class="diary-entry">
+<img src="assets/photo-diary/2026-08-mulanje-sunrise.jpg" alt="Sun rising behind Mount Mulanje">
+<figcaption>Mount Mulanje, Malawi · August 2026</figcaption>
+</figure>
+</div>
+-->
+</div>
+</section>
+
+</main>

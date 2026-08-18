@@ -32,6 +32,8 @@ website:
       - href: https://github.com/mkmacho
         icon: github
         aria-label: GitHub profile
+      - href: photo-diary.qmd
+        text: Photo diary
   page-footer:
     left: "© 2026 Miguel Camacho Horvitz"
     right:
@@ -53,4 +55,4 @@ format:
     code-copy: false
 
 execute:
-  freeze: auto
+  freeze: false
