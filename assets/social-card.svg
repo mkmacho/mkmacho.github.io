@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">Miguel Camacho Horvitz research profile</title>
+  <desc id="description">A typographic card for an applied economist studying infrastructure finance, public risk, and development.</desc>
+  <rect width="1200" height="630" fill="#f7f5f0"/>
+  <rect x="0" y="0" width="24" height="630" fill="#a34a2e"/>
+  <text x="82" y="118" fill="#78331f" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="2">APPLIED ECONOMIST · COMPUTATIONAL RESEARCHER</text>
+  <text x="76" y="270" fill="#172c3a" font-family="Georgia, 'Times New Roman', serif" font-size="82" font-weight="700">Miguel Camacho</text>
+  <text x="76" y="360" fill="#172c3a" font-family="Georgia, 'Times New Roman', serif" font-size="82" font-weight="700">Horvitz</text>
+  <line x1="82" y1="418" x2="1115" y2="418" stroke="#d8d2c7" stroke-width="3"/>
+  <text x="82" y="486" fill="#3f4e57" font-family="Arial, Helvetica, sans-serif" font-size="30">Infrastructure finance · Public risk · Development</text>
+  <text x="82" y="558" fill="#66737a" font-family="Arial, Helvetica, sans-serif" font-size="25">mkmacho.github.io</text>
+</svg>

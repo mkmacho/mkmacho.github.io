@@ -1,7 +1,13 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
-Gemfile.lock
+/_site/
+/.quarto/
+/.audit/
+/.DS_Store
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+/cv/build/
 
+**/*.quarto_ipynb

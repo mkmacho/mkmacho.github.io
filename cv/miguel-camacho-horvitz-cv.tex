@@ -1,0 +1,170 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=0.62in]{geometry}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{microtype}
+
+\definecolor{ink}{HTML}{172C3A}
+\definecolor{accent}{HTML}{934329}
+\definecolor{muted}{HTML}{56636B}
+\definecolor{rule}{HTML}{CFC8BC}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=accent,
+  linkcolor=accent,
+  pdftitle={Miguel Camacho Horvitz -- Curriculum Vitae},
+  pdfauthor={Miguel Camacho Horvitz}
+}
+
+\pagestyle{empty}
+\raggedbottom
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\setlist[itemize]{leftmargin=1.2em,itemsep=1pt,topsep=2pt,parsep=0pt,partopsep=0pt}
+
+\titleformat{\section}
+  {\large\bfseries\color{ink}}
+  {}{0pt}{}
+  [\vspace{2pt}\color{rule}\titlerule]
+\titlespacing*{\section}{0pt}{9pt}{4pt}
+
+\newcommand{\cvrole}[4]{%
+  \begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}X>{\raggedleft\arraybackslash}p{1.65in}@{}}
+    \textbf{\color{ink}#1} & \textbf{\small #2} \\
+    \textit{#3} & \textit{\small\color{muted}#4}
+  \end{tabularx}
+  \vspace{1pt}
+}
+
+\newcommand{\cvitem}[2]{%
+  \begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}X>{\raggedleft\arraybackslash}p{1.45in}@{}}
+    #1 & \small\color{muted}#2
+  \end{tabularx}
+}
+
+\newcommand{\coursework}[1]{%
+  {\small\color{muted}Selected coursework: #1}\par\vspace{3pt}
+}
+
+\begin{document}
+
+{\fontsize{25}{28}\selectfont\bfseries\color{ink} Miguel Camacho Horvitz}\par
+\vspace{3pt}
+{\large\color{accent} Applied economist and computational researcher}\par
+\vspace{5pt}
+\href{mailto:camacho.horvitz@gmail.com}{camacho.horvitz@gmail.com}
+\hspace{0.8em}{\color{rule}$\vert$}\hspace{0.8em}
+\href{https://mkmacho.github.io}{mkmacho.github.io}
+\hspace{0.8em}{\color{rule}$\vert$}\hspace{0.8em}
+\href{https://github.com/mkmacho}{github.com/mkmacho}
+
+\section{Research profile}
+
+Applied economist and computational researcher with graduate training in economics, mathematics, and computer science. My proposed doctoral research studies how infrastructure-finance arrangements distribute fiscal and foreign-exchange risk and decision-making authority in lower-income economies, beginning with Malawi's energy sector. Previous work at the Ellison Institute of Technology, OECD, NBER, FAIR at the Norwegian School of Economics, and the World Inequality Lab spans quantitative modelling, policy evaluation, experiments, and large-scale data construction.
+
+\section{Education}
+
+\cvrole{Paris School of Economics}{2021--2023}{Master's Degree in Economics, Public Policies and Development}{Paris, France}
+\coursework{Econometrics, advanced treatment models, political economy, development policy, public economics, labour-market policies, inequality, and machine learning in economics.}
+
+\cvrole{Stanford University}{2015--2017}{Master of Science in Computer Science}{Stanford, USA}
+\coursework{Machine learning, natural-language processing, computer vision, social and information networks, algorithms, and computer systems.}
+
+\cvrole{Stanford University}{2012--2016}{Bachelor of Science in Mathematical and Computational Science}{Stanford, USA}
+\coursework{Real and complex analysis, differential equations, probability, statistical inference, stochastic modelling, and convex optimisation.}
+
+\section{Research experience}
+
+\cvrole{Ellison Institute of Technology, Oxford}{Sep 2025--Aug 2026}{Research Analyst under Prof. Andrew Scott}{Oxford, United Kingdom}
+\begin{itemize}
+  \item Built calibrated continuous-time and life-cycle models linking health investment to survival, labour supply, and long-run growth; used numerical simulation, comparative statics, and sensitivity analysis to compare mortality reductions across age groups.
+  \item Built a reproducible Python pipeline for UKHLS panel data and applied unsupervised learning to recover latent life-cycle health trajectories linked to income, disability, mobility, and attrition; tested robustness and translated results into policy-facing analysis.
+\end{itemize}
+
+\cvrole{FAIR, Norwegian School of Economics (NHH)}{Sep 2024--Jun 2025}{Pre-Doctoral Research Fellow under Prof. Ingar Haaland}{Bergen, Norway}
+\begin{itemize}
+  \item Co-designed randomised field and survey experiments on demand for politically slanted news, combining treatment randomisation, generative AI, and computational text analysis to estimate effects on affective and political polarisation.
+  \item Built an LLM-driven treatment platform and developed an open-source, Qualtrics-integrated \href{https://github.com/mkmacho/ai-qualitative-interviews}{AI interviewer} for structured long-form qualitative data collection.
+\end{itemize}
+
+\cvrole{National Bureau of Economic Research}{Jan--Aug 2024}{Research Assistant under Prof. Ellora Derenoncourt}{Cambridge, MA / Princeton, NJ}
+\begin{itemize}
+  \item Contributed to Mart\'inez and Derenoncourt's paper \href{https://joanjmartinez.nyc3.digitaloceanspaces.com/research/JMartinez_JMP_MarketForces_2025.pdf}{\textit{Market Forces and Employer Racial Preferences}}, identifying data sources and study variables and supporting difference-in-differences and event-study analysis.
+  \item Built \href{https://github.com/mkmacho/newslabor-extract}{Python and SLURM workflows} to process approximately 34 million OCR-derived historical job advertisements, extract offered wages and candidate employer locations, geocode addresses, and run reproducible batched jobs.
+\end{itemize}
+
+\cvrole{OECD}{Aug 2023--Sep 2025}{Research Consultant}{Paris / Ljubljana}
+\begin{itemize}
+  \item Evaluated active labour-market programmes with propensity-score matching on linked employment, health, and social-protection records; used machine learning to construct and validate a health index and estimate heterogeneous effects.
+\end{itemize}
+
+\cvrole{World Inequality Lab}{Apr--Jul 2023}{Data Coordinator}{Paris, France}
+\begin{itemize}
+  \item Containerised workflows, migrated processing to cloud infrastructure, and integrated SQL-based preprocessing, improving the reproducibility and scalability of inequality indicators published through \href{https://wid.world/world}{WID.world}.
+\end{itemize}
+
+\cvrole{ConsiliumBots}{May--Sep 2022}{Research Fellow under Prof. Christopher Neilson}{Santiago / New York}
+\begin{itemize}
+  \item Supported \href{https://www.decidiendofuturomejor.com/}{higher-education information interventions} conducted with J-PAL LAC and built machine-learning career-recommendation tools with country-specific education and labour-market data; later published an \href{https://github.com/mkmacho/constrained-slate-recommender}{independent synthetic-data reference implementation}.
+\end{itemize}
+
+\section{Selected research and policy writing}
+
+\cvitem{\textbf{OECD report.} \href{https://www.oecd.org/content/dam/oecd/en/about/projects/technical-reports-and-presentations-dg-reform/slovenia/Module4.pdf}{\textit{Does Slovenia's Public Works Programme Improve Health and Social Outcomes?}}, prepared with Matija Vodopivec.}{December 2025}
+\vspace{4pt}
+\cvitem{\textbf{Co-authored methods paper.} \href{https://mkmacho.github.io/assets/robust-inference-weak-instruments.pdf}{\textit{Robust Inference in the Presence of Weak Instruments}}, with Kartika Herscheid and Unai Oy\'on-Lerga.}{April 2022}
+\vspace{4pt}
+\cvitem{\textbf{Master's thesis.} \textit{On Contemporary Inequality Narratives in Chile: A comparative analysis of income and wealth distributions with respect to Chile's Household Finances Survey}.}{September 2023}
+\vspace{4pt}
+\cvitem{\textbf{Co-authored policy note.} \href{https://mkmacho.github.io/assets/addressing-enduring-gender-gap-chilean-labour-market.pdf}{\textit{Addressing the Enduring Gender Gap in the Chilean Labour Market}}, with Kartika Herscheid and Laure Lépine.}{March 2022}
+
+\section{Selected public software and replications}
+
+\cvitem{\href{https://github.com/mkmacho/llm-experimental-economics-simulation}{\textbf{LLM Experimental Economics Simulation}} — code-first framework for reconstructing experimental-economics designs from public materials and auditing heuristic or LLM simulations against empirical targets; it does not present simulation results as empirical findings.}{}
+\vspace{3pt}
+\cvitem{\href{https://github.com/mkmacho/colombia-education-cct-replication}{\textbf{Colombia education CCT replication}} — reproducible R baseline replication of treatment effects from the Colombian conditional cash-transfer experiment using the authors' official replication package.}{}
+\vspace{3pt}
+\cvitem{\href{https://github.com/mkmacho/basel-transit-investment-analysis}{\textbf{Basel transit investment analysis}} — reproducible spatial-analysis portfolio project using Swiss GTFS and Basel-Stadt open data. The grant scenario is fictional; it demonstrates data integration, geocoding, spatial joins, transit-access metrics, and validation, not a policy evaluation or recommendation.}{}
+
+\section{Industry experience}
+
+\cvrole{Synapse}{2017--2020}{Machine Learning Engineer}{San Francisco, USA}
+\begin{itemize}
+  \item Built and deployed computer-vision systems for identity verification and transaction classification in Python.
+  \item Developed production APIs for financial risk, compliance, and fraud detection and trained generative models for adversarial testing.
+\end{itemize}
+
+\section{Teaching and volunteering}
+
+\cvrole{TakenoLAB}{2025}{Teacher}{Dzaleka Refugee Camp, Malawi}
+{\small Taught introductory computer science and programming; mentored projects in web development and machine learning.}\par\vspace{3pt}
+
+\cvrole{Inspirit AI}{2021--2024}{Teacher}{Global}
+{\small Taught programming and core AI concepts; mentored AI-for-social-impact projects.}\par\vspace{3pt}
+
+\cvrole{Stanford University}{2014--2016}{Mathematics Tutor}{Stanford, USA}
+{\small Provided peer tutoring in linear algebra, calculus, and differential equations.}\par
+
+\section{Methods, technical skills, and languages}
+
+\textbf{Methods:} Applied econometrics; causal inference; experimental design; panel and administrative data; structural and numerical modelling; computational text analysis; OCR/NLP; machine learning.\par
+\vspace{4pt}
+\textbf{Programming:} Python, R, Stata, SQL, Bash/Unix, C/C++, JavaScript.\par
+\vspace{4pt}
+\textbf{Tools:} AWS, GCS, OCI, Docker, Terraform, GitHub, \LaTeX, Qualtrics.\par
+\vspace{4pt}
+\textbf{Languages:} English and Spanish (fluent); French (professional reading and writing, proficient speaking).
+
+\vfill
+{\small\color{muted}Last updated August 2026. Public version; phone number and private application information omitted.}
+
+\end{document}

@@ -1,0 +1,209 @@
+---
+pagetitle: "CV"
+description: "Curriculum vitae: research experience, education, teaching, methods, and technical skills."
+page-layout: custom
+---
+
+<main id="main-content">
+
+<header class="page-hero">
+<div class="site-shell">
+<p class="eyebrow">Curriculum vitae</p>
+<h1 class="page-title">Curriculum vitae</h1>
+<p class="page-lede">Applied economist and computational researcher with experience in policy evaluation, experiments, quantitative modelling, and large-scale data construction. This page is an accessible summary; the PDF contains the complete research CV.</p>
+<div class="page-actions">
+<a class="button-link" href="assets/miguel-camacho-horvitz-cv.pdf" download>Download PDF CV</a>
+<a class="button-link secondary" href="mailto:camacho.horvitz@gmail.com">Email</a>
+</div>
+</div>
+</header>
+
+<section class="section-block" aria-label="Curriculum vitae details">
+<div class="site-shell cv-layout">
+<div>
+<section class="cv-section" aria-labelledby="research-experience-title">
+<h2 id="research-experience-title">Research experience</h2>
+
+<div class="cv-entry">
+<div>
+<h3>Research Analyst · Ellison Institute of Technology, Oxford</h3>
+<p>Built calibrated health-and-growth models and a reproducible UKHLS panel-data pipeline; used numerical simulation, unsupervised learning, comparative statics, and sensitivity analysis.</p>
+</div>
+<div class="cv-date">Sep 2025–Aug 2026</div>
+</div>
+
+<div class="cv-entry">
+<div>
+<h3>Pre-Doctoral Research Fellow · FAIR, Norwegian School of Economics</h3>
+<p>Co-designed randomised news and polarisation experiments; built a generative-AI treatment platform and developed an open-source, Qualtrics-integrated <a href="https://github.com/mkmacho/ai-qualitative-interviews">AI interviewer</a> for structured long-form qualitative data collection.</p>
+</div>
+<div class="cv-date">Sep 2024–Jun 2025</div>
+</div>
+
+<div class="cv-entry">
+<div>
+<h3>Research Assistant · National Bureau of Economic Research</h3>
+<p>Built OCR/NLP and geocoding workflows for approximately 34 million historical job advertisements and supported difference-in-differences and event-study research.</p>
+</div>
+<div class="cv-date">Jan–Aug 2024</div>
+</div>
+
+<div class="cv-entry">
+<div>
+<h3>Research Consultant · OECD</h3>
+<p>Evaluated active labour-market programmes with linked administrative data, matching methods, high-dimensional health measurement, and heterogeneous-effect analysis.</p>
+</div>
+<div class="cv-date">Aug 2023–Sep 2025</div>
+</div>
+
+<div class="cv-entry">
+<div>
+<h3>Data Coordinator · World Inequality Lab</h3>
+<p>Containerised workflows, migrated processing to cloud infrastructure, and integrated SQL preprocessing to improve the reproducibility and scalability of inequality indicators.</p>
+</div>
+<div class="cv-date">Apr–Jul 2023</div>
+</div>
+
+<div class="cv-entry">
+<div>
+<h3>Research Fellow · ConsiliumBots</h3>
+<p>Supported higher-education information interventions conducted with J-PAL LAC and built country-specific machine-learning career-recommendation tools.</p>
+</div>
+<div class="cv-date">May–Sep 2022</div>
+</div>
+</section>
+
+<section class="cv-section" aria-labelledby="education-title">
+<h2 id="education-title">Education</h2>
+
+<div class="cv-entry">
+<div>
+<h3>Paris School of Economics</h3>
+<p>Master’s Degree in Economics · Public Policies and Development</p>
+</div>
+<div class="cv-date">2021–2023</div>
+</div>
+
+<div class="cv-entry">
+<div>
+<h3>Stanford University</h3>
+<p>Master of Science in Computer Science</p>
+</div>
+<div class="cv-date">2015–2017</div>
+</div>
+
+<div class="cv-entry">
+<div>
+<h3>Stanford University</h3>
+<p>Bachelor of Science in Mathematical and Computational Science</p>
+</div>
+<div class="cv-date">2012–2016</div>
+</div>
+</section>
+
+<section class="cv-section" aria-labelledby="writing-title">
+<h2 id="writing-title">Selected research writing</h2>
+
+<div class="cv-entry">
+<div>
+<h3>Robust Inference in the Presence of Weak Instruments</h3>
+<p>Co-authored methods paper with Kartika Herscheid and Unai Oyón-Lerga. Reassesses 437 just-identified IV specifications from 38 <em>American Economic Journal</em> papers using the tF robust-inference adjustment. <a href="assets/robust-inference-weak-instruments.pdf">Read the paper</a>.</p>
+</div>
+<div class="cv-date">2022</div>
+</div>
+
+<div class="cv-entry">
+<div>
+<h3>Addressing the Enduring Gender Gap in the Chilean Labour Market</h3>
+<p>Co-authored policy note with Kartika Herscheid and Laure Lépine. Synthesises evidence on childcare, women’s STEM participation, and awareness campaigns in Chile; it makes policy recommendations rather than presenting a new causal evaluation. <a href="assets/addressing-enduring-gender-gap-chilean-labour-market.pdf">Read the policy note</a>.</p>
+</div>
+<div class="cv-date">2022</div>
+</div>
+</section>
+
+<section class="cv-section" aria-labelledby="software-title">
+<h2 id="software-title">Selected public software and replications</h2>
+
+<div class="cv-entry">
+<div>
+<h3>LLM Experimental Economics Simulation</h3>
+<p>A code-first framework for reconstructing experimental-economics designs from public materials and auditing heuristic or LLM simulations against empirical targets; it does not present simulation results as empirical findings. <a href="https://github.com/mkmacho/llm-experimental-economics-simulation">View repository</a>.</p>
+</div>
+</div>
+
+<div class="cv-entry">
+<div>
+<h3>Colombia education CCT replication</h3>
+<p>Reproducible R baseline replication of treatment effects from the Colombian conditional cash-transfer experiment using the authors’ official replication package. <a href="https://github.com/mkmacho/colombia-education-cct-replication">View repository</a>.</p>
+</div>
+</div>
+
+<div class="cv-entry">
+<div>
+<h3>Basel transit investment analysis</h3>
+<p>Reproducible spatial-analysis portfolio project using Swiss GTFS and Basel-Stadt open data. The grant scenario is fictional; this is a demonstration of data integration, geocoding, spatial joins, transit-access metrics, and validation—not a policy evaluation or recommendation. <a href="https://github.com/mkmacho/basel-transit-investment-analysis">View repository</a>.</p>
+</div>
+</div>
+</section>
+
+<section class="cv-section" aria-labelledby="industry-title">
+<h2 id="industry-title">Industry experience</h2>
+<div class="cv-entry">
+<div>
+<h3>Machine Learning Engineer · Synapse</h3>
+<p>Built and deployed computer-vision systems, production APIs for financial risk and compliance, and adversarial simulation tools in a containerised microservice architecture.</p>
+</div>
+<div class="cv-date">2017–2020</div>
+</div>
+</section>
+
+<section class="cv-section" aria-labelledby="teaching-title">
+<h2 id="teaching-title">Teaching &amp; volunteering</h2>
+<div class="cv-entry">
+<div>
+<h3>Teacher · TakenoLAB</h3>
+<p>Taught introductory computer science and programming in Dzaleka Refugee Camp, Malawi, and mentored web-development and machine-learning projects.</p>
+</div>
+<div class="cv-date">2025</div>
+</div>
+<div class="cv-entry">
+<div>
+<h3>Teacher · Inspirit AI</h3>
+<p>Taught programming and core AI concepts and mentored AI-for-social-impact projects.</p>
+</div>
+<div class="cv-date">2021–2024</div>
+</div>
+<div class="cv-entry">
+<div>
+<h3>Mathematics Tutor · Stanford University</h3>
+<p>Peer tutoring in linear algebra, calculus, and differential equations.</p>
+</div>
+<div class="cv-date">2014–2016</div>
+</div>
+</section>
+</div>
+
+<aside class="cv-sidebar" aria-labelledby="cv-sidebar-title">
+<h2 id="cv-sidebar-title">At a glance</h2>
+<p><strong>Miguel Camacho Horvitz</strong><br>Applied economist &amp; computational researcher</p>
+<p><a href="mailto:camacho.horvitz@gmail.com">camacho.horvitz@gmail.com</a><br><a href="https://github.com/mkmacho">github.com/mkmacho</a></p>
+
+<h3>Research fields</h3>
+<p>Development economics; international political economy; infrastructure finance; AI and labour; inequality.</p>
+
+<h3>Methods</h3>
+<p>Applied econometrics, causal inference, experiments, panel and administrative data, numerical modelling, computational text analysis, OCR/NLP, and machine learning.</p>
+
+<h3>Programming</h3>
+<p>Python, R, Stata, SQL, Bash/Unix, C/C++, JavaScript.</p>
+
+<h3>Languages</h3>
+<p>English and Spanish (fluent); French (professional reading and writing, proficient speaking).</p>
+
+<h3>Last updated</h3>
+<p>August 2026</p>
+</aside>
+</div>
+</section>
+
+</main>

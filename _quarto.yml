@@ -1,0 +1,56 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - assets/miguel-camacho-horvitz-cv.pdf
+    - assets/robust-inference-weak-instruments.pdf
+    - assets/addressing-enduring-gender-gap-chilean-labour-market.pdf
+    - assets/profile.jpg
+    - assets/social-card.png
+
+website:
+  title: "Miguel Camacho Horvitz"
+  site-url: "https://mkmacho.github.io"
+  description: "Applied economist studying infrastructure finance, public risk, and development, with experience in policy evaluation and computational research."
+  favicon: assets/favicon.svg
+  open-graph:
+    locale: en_GB
+    image: assets/social-card.png
+  twitter-card:
+    image: assets/social-card.png
+  search: false
+  navbar:
+    title: "Miguel Camacho Horvitz"
+    pinned: true
+    right:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: cv.qmd
+        text: CV
+      - href: https://github.com/mkmacho
+        icon: github
+        aria-label: GitHub profile
+  page-footer:
+    left: "© 2026 Miguel Camacho Horvitz"
+    right:
+      - text: "GitHub"
+        href: https://github.com/mkmacho
+      - text: "Email"
+        href: mailto:camacho.horvitz@gmail.com
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    lang: en-GB
+    toc: false
+    anchor-sections: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    code-copy: false
+
+execute:
+  freeze: auto
