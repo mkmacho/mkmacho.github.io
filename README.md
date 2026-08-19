@@ -1,6 +1,6 @@
 # Miguel Camacho Horvitz — research website
 
-A small, application-focused academic website built with [Quarto](https://quarto.org). The site is a deliberately curated public export: it is not connected to, generated from, or allowed to crawl the private research vault.
+A small, application-focused academic website built with [Quarto](https://quarto.org). The site is a deliberately curated public export: it is not connected to, generated from, or allowed to crawl private resources such as the research vault.
 
 ## Local workflow
 
@@ -20,7 +20,8 @@ The generated website lives in `_site/` and is intentionally ignored by Git. The
 - `research.qmd`: research agenda and contribution-labelled outputs
 - `cv.qmd`: accessible HTML CV and PDF download
 - `cv/miguel-camacho-horvitz-cv.tex`: sanitised public CV source
-- `assets/profile.jpg`: homepage portrait (currently a placeholder)
+- `assets/profile.jpg`: profile picture (large, ~3MB)
+- `assets/profile-small.jpg`: profile picture (small, ~500KB)
 - `photo-diary.qmd`: personal photo-diary page
 - `assets/photo-diary/`: public photos used on that page
 - `assets/robust-inference-weak-instruments.pdf`: co-authored methods paper linked from the research page
@@ -29,13 +30,8 @@ The generated website lives in `_site/` and is intentionally ignored by Git. The
 - `styles.scss`: design system and responsive rules
 - `.github/workflows/publish.yml`: GitHub Pages build and deployment
 
-## Replace the portrait placeholder
 
-Overwrite `assets/profile.jpg` with the final photograph; the page markup and crop are already configured. Use a 4:5 head-and-shoulders image, ideally at least 1200 × 1500 pixels, exported as an sRGB JPEG. A natural, uncluttered background and normal academic or everyday professional clothing will fit the site better than a heavily retouched corporate portrait.
-
-After replacing the file, change the image alt text in `index.qmd` from `Portrait placeholder for Miguel Camacho Horvitz` to `Portrait of Miguel Camacho Horvitz`, then run `make check`. Keep the file reasonably small for the web—roughly 300–600 KB is a useful target.
-
-## Add photos to the diary
+## Adding photos to the diary
 
 Put web-ready images in `assets/photo-diary/`. On your Mac, copy an image into that folder, give it a simple descriptive filename (for example `2026-08-mulanje-sunrise.jpg`), then add one entry to the `photo-diary.qmd` gallery. Each entry has an image, meaningful alternative text, and a caption directly underneath it:
 

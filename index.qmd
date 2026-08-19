@@ -20,7 +20,7 @@ page-layout: custom
 </div>
 <aside class="profile-card" aria-label="Profile at a glance">
 <figure class="portrait-frame">
-<img src="assets/profile.jpg" width="1200" height="1500" alt="Portrait of Miguel Camacho Horvitz">
+<img src="assets/profile-small.jpg" width="1200" height="1500" alt="Portrait of Miguel Camacho Horvitz">
 </figure>
 <div class="profile-row">
 <span class="profile-label">Most recent position</span>
