@@ -71,11 +71,11 @@ page-layout: custom
 </article>
 
 <article class="work-card">
-<span class="status-tag">Master’s thesis · September 2023</span>
-<h3>On Contemporary Inequality Narratives in Chile</h3>
+<span class="status-tag">Master’s thesis · September 2023, updated</span>
+<h3>Did Inequality Fall in Chile? Income, Wealth, and Survey Disagreement, 2007–2024</h3>
 <p class="work-meta">Paris School of Economics</p>
-<p>The thesis compares income and wealth distributions using Chile’s Household Finances Survey and examines how empirical measurement choices shape accounts of inequality.</p>
-<div class="work-links"><a class="text-link" href="mailto:camacho.horvitz@gmail.com?subject=Thesis%20writing%20sample">Request the manuscript</a></div>
+<p>The paper asks whether Chile’s well-documented decline in measured inequality persists in a different household-survey system. It combines six waves of the Household Financial Survey with a closest-concept CASEN comparison, income-component accounting, a survivor-domain check, and an audit of the survey ancestry behind international indicators.</p>
+<div class="work-links"><a class="text-link" href="assets/camacho-did-inequality-fall-in-chile.pdf">Read the paper</a><br><a class="text-link" href="assets/camacho-did-inequality-fall-in-chile-supplement.pdf">Technical supplement</a><br><a class="text-link" href="https://github.com/mkmacho/inequality-measurement-chile">Code and aggregate results</a></div>
 </article>
 
 <article class="work-card">

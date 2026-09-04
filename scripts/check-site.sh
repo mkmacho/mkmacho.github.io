@@ -17,6 +17,8 @@ required_files=(
   "$site_dir/assets/miguel-camacho-horvitz-cv.pdf"
   "$site_dir/assets/robust-inference-weak-instruments.pdf"
   "$site_dir/assets/addressing-enduring-gender-gap-chilean-labour-market.pdf"
+  "$site_dir/assets/camacho-did-inequality-fall-in-chile.pdf"
+  "$site_dir/assets/camacho-did-inequality-fall-in-chile-supplement.pdf"
   "$site_dir/assets/profile.jpg"
 )
 

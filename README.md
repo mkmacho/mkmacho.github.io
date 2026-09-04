@@ -26,6 +26,8 @@ The generated website lives in `_site/` and is intentionally ignored by Git. The
 - `assets/photo-diary/`: public photos used on that page
 - `assets/robust-inference-weak-instruments.pdf`: co-authored methods paper linked from the research page
 - `assets/addressing-enduring-gender-gap-chilean-labour-market.pdf`: co-authored policy note linked from the research page
+- `assets/camacho-did-inequality-fall-in-chile.pdf`: current thesis paper
+- `assets/camacho-did-inequality-fall-in-chile-supplement.pdf`: technical supplement to the thesis paper
 - `assets/social-card.svg`: editable social-preview artwork (`make social-card` regenerates the PNG)
 - `styles.scss`: design system and responsive rules
 - `.github/workflows/publish.yml`: GitHub Pages build and deployment
