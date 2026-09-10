@@ -188,7 +188,7 @@ p:last-child {
 
 .display-title {
   max-width: 760px;
-  margin: 0 0 1rem;
+  margin: 0 0 clamp(2.5rem, 5vw, 4rem);
   color: var(--ink);
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(3.2rem, 5.6vw, 4.8rem);
@@ -211,6 +211,29 @@ p:last-child {
   color: #3c4b54;
   font-size: clamp(1.08rem, 1.7vw, 1.24rem);
   line-height: 1.65;
+}
+
+.home-introduction {
+  max-width: 46rem;
+}
+
+.home-introduction h2 {
+  margin: 0 0 0.7rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.76rem;
+  font-weight: 750;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.home-introduction p {
+  color: #3c4b54;
+  font-size: clamp(1.08rem, 1.7vw, 1.24rem);
+  line-height: 1.65;
+}
+
+.home-introduction p + p {
+  margin-top: 1.75rem;
 }
 
 .hero-actions,
@@ -535,6 +558,11 @@ p:last-child {
 
 .research-output-grid .work-card {
   min-height: 23rem;
+}
+
+.research-direction-card {
+  border-top: 3px solid var(--accent);
+  background: var(--white);
 }
 
 .work-card h3 {

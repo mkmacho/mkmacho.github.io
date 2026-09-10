@@ -106,6 +106,14 @@ page-layout: custom
 
 <div class="cv-entry">
 <div>
+<h3>Did Inequality Fall in Chile? Income, Wealth, and Survey Disagreement, 2007–2024</h3>
+<p>Master’s thesis submitted in September 2023 and substantially revised with the latest EFH and CASEN data through 2024. <a href="assets/camacho-did-inequality-fall-in-chile.pdf">Read the paper</a>.</p>
+</div>
+<div class="cv-date">Revised 2026</div>
+</div>
+
+<div class="cv-entry">
+<div>
 <h3>Robust Inference in the Presence of Weak Instruments</h3>
 <p>Co-authored methods paper with Kartika Herscheid and Unai Oyón-Lerga. Reassesses 437 just-identified IV specifications from 38 <em>American Economic Journal</em> papers using the tF robust-inference adjustment. <a href="assets/robust-inference-weak-instruments.pdf">Read the paper</a>.</p>
 </div>
@@ -118,31 +126,6 @@ page-layout: custom
 <p>Co-authored policy note with Kartika Herscheid and Laure Lépine. Synthesises evidence on childcare, women’s STEM participation, and awareness campaigns in Chile; it makes policy recommendations rather than presenting a new causal evaluation. <a href="assets/addressing-enduring-gender-gap-chilean-labour-market.pdf">Read the policy note</a>.</p>
 </div>
 <div class="cv-date">2022</div>
-</div>
-</section>
-
-<section class="cv-section" aria-labelledby="software-title">
-<h2 id="software-title">Selected public software and replications</h2>
-
-<div class="cv-entry">
-<div>
-<h3>LLM Experimental Economics Simulation</h3>
-<p>A code-first framework for reconstructing experimental-economics designs from public materials and auditing heuristic or LLM simulations against empirical targets; it does not present simulation results as empirical findings. <a href="https://github.com/mkmacho/llm-experimental-economics-simulation">View repository</a>.</p>
-</div>
-</div>
-
-<div class="cv-entry">
-<div>
-<h3>Colombia education CCT replication</h3>
-<p>Reproducible R baseline replication of treatment effects from the Colombian conditional cash-transfer experiment using the authors’ official replication package. <a href="https://github.com/mkmacho/colombia-education-cct-replication">View repository</a>.</p>
-</div>
-</div>
-
-<div class="cv-entry">
-<div>
-<h3>Basel transit investment analysis</h3>
-<p>Reproducible spatial-analysis portfolio project using Swiss GTFS and Basel-Stadt open data. The grant scenario is fictional; this is a demonstration of data integration, geocoding, spatial joins, transit-access metrics, and validation—not a policy evaluation or recommendation. <a href="https://github.com/mkmacho/basel-transit-investment-analysis">View repository</a>.</p>
-</div>
 </div>
 </section>
 

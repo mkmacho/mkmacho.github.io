@@ -29,6 +29,8 @@ website:
         text: Home
       - href: research.qmd
         text: Research
+      - href: software.qmd
+        text: Software
       - href: cv.qmd
         text: CV
       - href: https://github.com/mkmacho

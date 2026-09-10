@@ -1,6 +1,6 @@
 # Miguel Camacho Horvitz — research website
 
-A small, application-focused academic website built with [Quarto](https://quarto.org). The site is a deliberately curated public export: it is not connected to, generated from, or allowed to crawl private resources such as the research vault.
+A small, application-focused academic website built with [Quarto](https://quarto.org). The site is a deliberately curated public export: it is not connected to, generated from, or allowed to crawl private resources.
 
 ## Local workflow
 
@@ -18,6 +18,7 @@ The generated website lives in `_site/` and is intentionally ignored by Git. The
 
 - `index.qmd`: first-impression profile and selected work
 - `research.qmd`: research agenda and contribution-labelled outputs
+- `software.qmd`: open-source research software and replications
 - `cv.qmd`: accessible HTML CV and PDF download
 - `cv/miguel-camacho-horvitz-cv.tex`: sanitised public CV source
 - `assets/profile.jpg`: profile picture (large, ~3MB)
@@ -35,7 +36,7 @@ The generated website lives in `_site/` and is intentionally ignored by Git. The
 
 ## Adding photos to the diary
 
-Put web-ready images in `assets/photo-diary/`. On your Mac, copy an image into that folder, give it a simple descriptive filename (for example `2026-08-mulanje-sunrise.jpg`), then add one entry to the `photo-diary.qmd` gallery. Each entry has an image, meaningful alternative text, and a caption directly underneath it:
+Put web-ready images in `assets/photo-diary/`. Copy an image into that folder, give it a simple descriptive filename (for example `2026-08-mulanje-sunrise.jpg`), then add one entry to the `photo-diary.qmd` gallery. Each entry has an image, meaningful alternative text, and a caption directly underneath it:
 
 ```markdown
 <figure class="diary-entry">
@@ -50,9 +51,7 @@ You can also upload through GitHub’s website: open the repository, navigate to
 
 ## Public-data boundary
 
-Before any public release, review every staged file. Never copy private profile YAML, campaign trackers, transcripts, references, application materials, raw Vault sources, phone numbers, home addresses, restricted-data details, or unpublished coauthor material into this repository. Confirm that co-authors are comfortable with any joint manuscript before publishing it. The public CV intentionally omits a phone number, grades, planned travel or relocation, and private application strategy.
-
-The email address is included because it was already configured as the contact address in this website repository. Remove it from `_quarto.yml`, the QMD files, and the CV source if that is no longer intended for public use.
+Before any public release, review every staged file. Never copy private profile YAML, campaign trackers, transcripts, references, application materials, raw Vault sources, phone numbers, home addresses, restricted-data details, or unpublished coauthor material into this repository. Confirm that co-authors are comfortable with any joint manuscript before publishing it. The public CV intentionally omits private information (e.g. phone number). The email address is included because it was already configured as the contact address in this website repository. Remove it from `_quarto.yml`, the QMD files, and the CV source if that is no longer intended for public use.
 
 ## Deployment
 
